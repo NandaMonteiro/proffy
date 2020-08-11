@@ -1,4 +1,4 @@
-![Proffy](./assets/proffy.png)
+![Proffy](./assets/proffy.PNG)
 
 # NLW#02 - Next Level Week
 
@@ -30,16 +30,23 @@ git clone https://github.com/NandaMonteiro/proffy
 Para rodar o servidor da aplicação, se faz necessário que navegue através do terminal até a pasta serve e execute os comandos:
 
 ```
+# Intalando as dependências do projeto
 npm isntall
 
+# Configurando o banco de dados e criando as tabelas.
+npm run knex:migrate
+
+# Iniciando a aplicação
 npm start
 ```
 
 Para executar o Frontend se faz necessário que navegue através do terminal até a pasta web e execute os seguintes comandos:
 
 ```
+# Intalando as dependências do projeto
 npm install
 
+# Iniciando a aplicação
 npm start
 
 ```
@@ -47,32 +54,10 @@ npm start
 Para executar o Mobile navegue através do terminal até a pasta mobile e execute os seguintes comandos:
 
 ```
+# Intalando as dependências do projeto
 npm install
 
+# Iniciando a aplicação
 npm start
 
 ```
-
-# API
-  $ cd server
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Configurando o banco de dados e criando as tabelas.
-  $ yarn knex:migrate # ou npm run knex:migrate
-
-  # Inicie a API
-  $ yarn start # ou npm start
-
-  # Aplicação web
-  $ cd web
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Inicie a aplicação web
-  $ yarn start # ou npm start
-
-  # Aplicação mobile
-  $ cd mobile
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Inicie a aplicação mobile
-  $ yarn start # ou npm start
